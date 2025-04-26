@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultadoFinalElement = document.getElementById('resultadoFinal');
     const mensajeFinalElement = document.getElementById('mensajeFinal');
     const btnReiniciar = document.getElementById('btnReiniciar');
+    const btnVerResultados = document.getElementById('btnVerResultados');
+    const resultadoElement = document.getElementById('resultado');
+    const explicacionElement = document.getElementById('explicacion');
+    const mensajeResultadoElement = document.getElementById('mensajeResultado');
 
     // Variables del juego
     let preguntas = [];
@@ -26,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let correctas = 0;
     let falladas = 0;
     let dificultad = 'normal';
+    let respuestaSeleccionadaIndex = null;
 
     // Cargar preguntas desde el archivo JSON
     fetch('preguntas.json')
@@ -55,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         falladas = 0;
         actualizarMarcador();
         actualizarBarraProgreso();
+        respuestaSeleccionadaIndex = null;
 
         console.log('Número de preguntas seleccionadas:', cantidad);
         console.log('Preguntas seleccionadas:', preguntasSeleccionadas);
@@ -69,13 +75,41 @@ document.addEventListener('DOMContentLoaded', () => {
         const botonesRespuesta = respuestasElement.querySelectorAll('.respuesta');
         botonesRespuesta.forEach((boton, index) => {
             boton.textContent = preguntaActual.respuestas[index];
+            boton.classList.remove('bg-teal-200', 'cursor-not-allowed');
+            boton.disabled = false;
         });
+        resultadoElement.style.display = 'none'; // Ocultar el feedback
+        btnSiguiente.style.display = 'none';
     }
 
     // Función para seleccionar una respuesta
     function seleccionarRespuesta(index) {
         console.log('Respuesta seleccionada:', index);
-        respuestasSeleccionadas[preguntaActualIndex] = index;
+        respuestaSeleccionadaIndex = index; // Guardar la respuesta seleccionada
+
+        // Deshabilitar los otros botones y cambiar el cursor
+        const botonesRespuesta = respuestasElement.querySelectorAll('.respuesta');
+        botonesRespuesta.forEach((boton, i) => {
+            if (i !== index) {
+                boton.disabled = true;
+                boton.classList.add('cursor-not-allowed');
+            }
+        });
+
+        // Mostrar el feedback y el botón de siguiente pregunta
+        mostrarResultado(index);
+    }
+
+    // Función para mostrar el resultado de la pregunta
+    function mostrarResultado(indexSeleccionado) {
+        const preguntaActual = preguntasSeleccionadas[preguntaActualIndex];
+        const esCorrecta = indexSeleccionado === preguntaActual.correcta;
+
+        let mensaje = esCorrecta ? '¡Correcto! ✅' : '¡Incorrecto! ❌';
+        mensajeResultadoElement.textContent = mensaje;
+        explicacionElement.textContent = preguntaActual.explicacion;
+        resultadoElement.style.display = 'block';
+        btnSiguiente.style.display = 'block'; // Mostrar el botón de siguiente pregunta
     }
 
     // Función para actualizar el marcador en la interfaz
@@ -97,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         examenElement.style.display = 'none';
         configuracionElement.style.display = 'none';
         resultadoFinalElement.style.display = 'block';
+        btnVerResultados.style.display = 'none';
 
         let desglose = `Obtuviste ${correctas} respuestas correctas y ${falladas} respuestas incorrectas.<br><br>`;
         desglose += `Puntuación base: ${correctas} puntos.<br>`;
@@ -107,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             desglose += `Penalización por fallos: -${falladas * 1} puntos.<br>`;
         }
 
-        desglose += `Puntuación total: <span class="font-bold text-xl">${puntuacion.toFixed(2)} puntos</span>`; // Resaltar la puntuación total
+        desglose += `Puntuación total: <span class="font-bold text-xl text-teal-400">${puntuacion.toFixed(2)} puntos</span>`;
         mensajeFinalElement.innerHTML = `¡Examen finalizado! 🎉<br><br>${desglose}`;
     }
 
@@ -146,13 +181,15 @@ document.addEventListener('DOMContentLoaded', () => {
         configuracionElement.style.display = 'none';
         examenElement.style.display = 'block';
         resultadoFinalElement.style.display = 'none';
+
+        btnVerResultados.style.display = 'none';
     });
 
     // Evento para pasar a la siguiente pregunta
     btnSiguiente.addEventListener('click', () => {
         // Mover la lógica del marcador aquí
         const preguntaActual = preguntasSeleccionadas[preguntaActualIndex];
-        const indexSeleccionado = respuestasSeleccionadas[preguntaActualIndex];
+        const indexSeleccionado = respuestaSeleccionadaIndex;
         let esCorrecta = indexSeleccionado === preguntaActual.correcta;
 
         if (esCorrecta) {
@@ -175,8 +212,18 @@ document.addEventListener('DOMContentLoaded', () => {
             mostrarPregunta();
             actualizarBarraProgreso();
         } else {
-            mostrarResultadoFinal();
+            btnSiguiente.style.display = 'none';
+            btnVerResultados.style.display = 'block'; // Mostrar el botón "Ver Resultados"
+            resultadoElement.style.display = 'none'; // Ocultar el feedback
+            preguntaElement.textContent = "¡Examen finalizado! 🎉";
+            respuestasElement.style.display = 'none';
+
         }
+    });
+
+    // Evento para ver los resultados finales
+    btnVerResultados.addEventListener('click', () => {
+        mostrarResultadoFinal();
     });
 
     // Delegación de eventos en el contenedor de respuestas
@@ -193,4 +240,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ocultar el examen y el resultado final al cargar la página
     examenElement.style.display = 'none';
     resultadoFinalElement.style.display = 'none';
+    resultadoElement.style.display = 'none';
 });
