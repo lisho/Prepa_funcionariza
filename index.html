@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Tipo Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        /* Estilos personalizados para el indicador de puntuación */
+        .marcador {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #374151; /* Gray 700 */
+            text-align: right;
+            margin-bottom: 1rem; /* Añadido margen inferior */
+        }
+
+        /* Estilos personalizados para el indicador de progreso */
+        #barraProgreso {
+            width: 100%;
+            background-color: #e5e7eb; /* Gray 200 */
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            overflow: hidden; /* Para que la animación se vea dentro de la barra */
+        }
+
+        #progreso {
+            height: 10px;
+            background-color: #60a5fa; /* Blue 400 */
+            border-radius: 4px;
+            width: 0; /* Inicializar la barra de progreso al 0% */
+            transition: width 0.5s ease-in-out; /* Añadir transición para la animación */
+        }
+
+        /* Ocultar el examen y el resultado final al cargar la página */
+        #examen {
+            display: none;
+        }
+
+        #resultadoFinal {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-xl w-full max-w-md md:max-w-2xl">
+        <h1 class="text-3xl font-semibold text-center text-gray-800 mb-6">Examen Tipo Test</h1>
+
+        <!-- Contenedor de la configuración -->
+        <div id="configuracion" class="mb-6 p-4">
+            <label for="numPreguntas" class="block text-gray-700 text-sm font-bold mb-2">Número de preguntas:</label>
+            <input type="number" id="numPreguntas" min="1" value="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4">
+
+            <label for="dificultad" class="block text-gray-700 text-sm font-bold mb-2">Dificultad:</label>
+            <select id="dificultad" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4">
+                <option value="normal">Normal</option>
+                <option value="penaliza_05">Penaliza -0.5</option>
+                <option value="penaliza_1">Penaliza -1</option>
+            </select>
+
+            <button id="btnComenzar" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">Comenzar Examen</button>
+        </div>
+
+        <!-- Contenedor del examen -->
+        <div id="examen" class="p-4">
+            <div class="marcador">
+                Puntuación: <span id="puntuacion">0</span><br>
+                Correctas: <span id="correctas">0</span><br>
+                Falladas: <span id="falladas">0</span>
+            </div>
+
+            <div id="barraProgreso">
+                <div id="progreso"></div>
+            </div>
+
+            <div id="pregunta" class="text-xl text-gray-700 mb-4"></div>
+            <div id="respuestas" class="grid grid-cols-2 gap-4">
+                <button class="respuesta bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="0"></button>
+                <button class="respuesta bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="1"></button>
+                <button class="respuesta bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="2"></button>
+                <button class="respuesta bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="3"></button>
+            </div>
+            <button id="btnSiguiente" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4">Siguiente Pregunta</button>
+        </div>
+
+        <!-- Contenedor del resultado final -->
+        <div id="resultadoFinal" class="p-4 text-center">
+            <p id="mensajeFinal" class="text-xl text-gray-700 mb-4"></p>
+            <button id="btnReiniciar" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4">Reiniciar Examen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

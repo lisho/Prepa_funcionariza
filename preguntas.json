@@ -1,0 +1,46 @@
+[
+    {
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "respuestas": [
+        "Berlín",
+        "Madrid",
+        "París",
+        "Roma"
+      ],
+      "correcta": 2,
+      "explicacion": "París es la capital de Francia y una de las ciudades más importantes del mundo."
+    },
+    {
+      "pregunta": "¿Quién pintó La Mona Lisa?",
+      "respuestas": [
+        "Miguel Ángel",
+        "Leonardo da Vinci",
+        "Rafael",
+        "Donatello"
+      ],
+      "correcta": 1,
+      "explicacion": "La Mona Lisa es una obra maestra de Leonardo da Vinci."
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "respuestas": [
+        "Amazonas",
+        "Nilo",
+        "Yangtsé",
+        "Misisipi"
+      ],
+      "correcta": 0,
+      "explicacion": "El río Amazonas es el más largo, superando al Nilo por una longitud de unos 140 km."
+    },
+    {
+      "pregunta": "¿En qué año cayó el muro de Berlín?",
+      "respuestas": [
+        "1985",
+        "1989",
+        "1991",
+        "1995"
+      ],
+      "correcta": 1,
+      "explicacion": "El muro de Berlín cayó el 9 de noviembre de 1989, un evento clave en la reunificación alemana y el fin de la Guerra Fría."
+    }
+  ]
