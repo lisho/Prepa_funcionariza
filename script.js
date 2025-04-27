@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const numPreguntasInput = document.getElementById('numPreguntas');
     const btnComenzar = document.getElementById('btnComenzar');
     const preguntaElement = document.getElementById('pregunta');
+    const temaElement = document.getElementById('tema');
     const respuestasElement = document.getElementById('respuestas');
     const btnSiguiente = document.getElementById('btnSiguiente');
     const puntuacionElement = document.getElementById('puntuacion');
@@ -73,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Mostrando pregunta:', preguntaActualIndex + 1);
         const preguntaActual = preguntasSeleccionadas[preguntaActualIndex];
         preguntaElement.textContent = preguntaActual.pregunta;
-
+        temaElement.textContent = preguntaActual.tema;
         const botonesRespuesta = respuestasElement.querySelectorAll('.respuesta');
        
         botonesRespuesta.forEach((boton, index) => {
@@ -239,6 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnVerResultados.style.display = 'block';
             resultadoElement.style.display = 'none';
             respuestasElement.style.display = 'none';
+            temaElement.textContent = ''
             preguntaElement.textContent = "¡Examen finalizado! 🎉";
         }
     });
