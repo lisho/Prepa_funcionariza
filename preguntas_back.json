@@ -7,7 +7,7 @@
       "Es obligatorio siempre."
     ],
     "correcta": 1,
-    "explicacion": "La Ley Reguladora de las Bases del Régimen Local (LRBRL) establece la obligatoriedad de la Junta de Gobierno Local en municipios con población superior a 5.000 habitantes y en los de menos si así lo dispone su reglamento orgánico o lo acuerda el Pleno."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué Concejalía tiene las competencias en materia de servicios sociales en el Ayuntamiento de León?",
@@ -17,7 +17,7 @@
       "Concejalía de Bienestar Social y Juventud."
     ],
     "correcta": 2,
-    "explicacion": "Esta es la denominación específica que tiene la concejalía con competencias en servicios sociales en la estructura organizativa del Ayuntamiento de León (puede variar en otros ayuntamientos)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué artículo de la Ley 7/ 1985, de 2 de abril, establece los servicios mínimos que deben ser prestados por los Ayuntamientos?",
@@ -27,7 +27,7 @@
       "El art. 65."
     ],
     "correcta": 0,
-    "explicacion": "El artículo 26 de la Ley 7/1985 Reguladora de las Bases del Régimen Local es el que enumera los servicios obligatorios que deben prestar los municipios en función de su número de habitantes."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cómo se denomina el órgano de máxima representación política de los ciudadanos en el gobierno municipal?:",
@@ -37,7 +37,7 @@
       "Pleno."
     ],
     "correcta": 2,
-    "explicacion": "El Pleno del Ayuntamiento, integrado por todos los concejales y presidido por el Alcalde, es el órgano de máxima representación política de los ciudadanos en el municipio según la LRBRL."
+    "explicacion": ""
   },
   {
     "pregunta": "Los Tenientes de Alcalde serán libremente nombrados y cesados por:",
@@ -47,7 +47,7 @@
       "Por los jueces."
     ],
     "correcta": 0,
-    "explicacion": "La potestad de nombrar y cesar libremente a los Tenientes de Alcalde corresponde al Alcalde, eligiéndolos entre los miembros de la Junta de Gobierno Local o, si no existe, entre los Concejales (LRBRL)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué artículo de la Ley 7/ 1985, de 2 de abril, establece la competencia que la Administración del Estado y las de las Comunidades Autónomas podrán delegar en los municipios?:",
@@ -57,7 +57,7 @@
       "Articulo 31"
     ],
     "correcta": 1,
-    "explicacion": "El artículo 27 de la Ley 7/1985 (LRBRL) regula el régimen de la delegación de competencias del Estado y de las Comunidades Autónomas en los Municipios."
+    "explicacion": ""
   },
   {
     "pregunta": "El Municipio de León ejercerá en todo caso como competencias propias, en los términos de la legislación del Estado y de las Comunidades Autónomas, en las siguientes materias:",
@@ -67,7 +67,7 @@
       "Promoción de la música tradicional y del lliunés."
     ],
     "correcta": 0,
-    "explicacion": "La evaluación de necesidades sociales y la atención inmediata a personas en riesgo de exclusión es una competencia propia que la legislación (LRBRL y legislación sectorial) atribuye a los municipios."
+    "explicacion": ""
   },
   {
     "pregunta": "En el Ayuntamiento de León, la competencia en materia de personal municipal las ejerce:",
@@ -77,7 +77,7 @@
       "La Concejalía de Personal y Servicios"
     ],
     "correcta": 1,
-    "explicacion": "Dentro de la estructura específica del Ayuntamiento de León, esta concejalía agrupa las competencias sobre el personal municipal (Recursos Humanos)."
+    "explicacion": ""
   },
   {
     "pregunta": "Existen actos presuntos, cuando la Administración no se pronuncia pero de su inactividad, el ordenamiento jurídico deduce unas determinadas consecuencias, a esto le llamaremos:",
@@ -87,7 +87,7 @@
       "Anulabilidad"
     ],
     "correcta": 1,
-    "explicacion": "El silencio administrativo es la figura jurídica por la cual la ley atribuye efectos (positivos o negativos) a la falta de resolución expresa de la Administración en el plazo legalmente establecido."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Ante quien se interpone el recurso de alzada?",
@@ -97,7 +97,7 @@
       "Ante el órgano que dictó el acto impugnado en cualquier caso."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 39/2015 de Procedimiento Administrativo Común establece que el recurso de alzada puede interponerse alternativamente ante el órgano que dictó el acto o ante el superior jerárquico de este."
+    "explicacion": ""
   },
   {
     "pregunta": "La ley 39/2015 señala, entre otras, como forma de finalización del procedimiento administrativo:",
@@ -107,7 +107,7 @@
       "La sentencia."
     ],
     "correcta": 0,
-    "explicacion": "La resolución expresa es una de las formas normales de terminación del procedimiento administrativo, según la Ley 39/2015. La instrucción es una fase y la sentencia es judicial."
+    "explicacion": ""
   },
   {
     "pregunta": "Las personas físicas podrán elegir en todo momento si se comunican con las Administraciones Públicas para el ejercicio de sus derechos y obligaciones a través de medios electrónicos o no:",
@@ -117,7 +117,7 @@
       "No pudiendo estar obligadas a relacionarse a través de unos medios u otros con las Administraciones Públicas."
     ],
     "correcta": 0,
-    "explicacion": "La Ley 39/2015 establece el derecho de las personas físicas a elegir el medio de comunicación, pero contempla excepciones donde la relación electrónica es obligatoria."
+    "explicacion": ""
   },
   {
     "pregunta": "La lengua de los procedimientos tramitados por la Administración General del Estado (AGE) será:",
@@ -127,7 +127,7 @@
       "Preferiblemente el castellano"
     ],
     "correcta": 0,
-    "explicacion": "La Ley 39/2015 establece el castellano como lengua de los procedimientos de la AGE, sin perjuicio del derecho de los ciudadanos a usar las lenguas cooficiales en sus respectivos territorios."
+    "explicacion": ""
   },
   {
     "pregunta": "Los términos y plazos establecidos en la Ley 39/2015 u otras leyes obligan a:",
@@ -137,7 +137,7 @@
       "Todas son correctas"
     ],
     "correcta": 2,
-    "explicacion": "Tanto las autoridades y el personal de la Administración como los interesados están obligados a cumplir los términos y plazos establecidos en las leyes (Art. 29, Ley 39/2015)."
+    "explicacion": ""
   },
   {
     "pregunta": "Los plazos expresados por horas en el procedimiento administrativo se contarán:",
@@ -147,7 +147,7 @@
       "Se contarán de hora en hora desde la hora en que tenga lugar la notificación o publicación del acto de que se trate"
     ],
     "correcta": 1,
-    "explicacion": "La Ley 39/2015 (Art. 30.1) especifica que los plazos por horas se cuentan de hora en hora y de minuto en minuto desde la notificación o publicación."
+    "explicacion": ""
   },
   {
     "pregunta": "La comparecencia de las personas ante las oficinas públicas, según establece la Ley 39/2015:",
@@ -157,7 +157,7 @@
       "Ya sea presencialmente o por medios electrónicos, sólo será obligatoria cuando así esté previsto en una norma con rango de ley."
     ],
     "correcta": 2,
-    "explicacion": "La Ley 39/2015 (Art. 16.6) indica que la comparecencia (presencial o electrónica) solo será obligatoria cuando lo prevea una norma con rango de Ley."
+    "explicacion": ""
   },
   {
     "pregunta": "Los empleados públicos se clasifican en:",
@@ -167,7 +167,7 @@
       "Funcionarios de carrera, funcionarios interinos, personal laboral, ya sea fijo, por tiempo indefinido o temporal y personal eventual"
     ],
     "correcta": 2,
-    "explicacion": "El Texto Refundido del Estatuto Básico del Empleado Público (TREBEP) establece esta clasificación completa: funcionarios de carrera, interinos, personal laboral (fijo, indefinido, temporal) y personal eventual."
+    "explicacion": ""
   },
   {
     "pregunta": "De acuerdo con el artículo 92 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases de Régimen Local, señale la respuesta correcta respecto de los Funcionarios al servicio de la Administración Local:",
@@ -177,7 +177,7 @@
       "Corresponde exclusivamente a los funcionarios de carrera al servicio de la Administración Local el ejercicio de funciones que impliquen la participación directa o indirecta en el ejercicio de potestades públicas o en la salvaguardia de intereses generales."
     ],
     "correcta": 2,
-    "explicacion": "El Art. 92.2 de la LRBRL reserva expresamente a los funcionarios de carrera el ejercicio de funciones que impliquen el ejercicio de autoridad o potestades públicas."
+    "explicacion": ""
   },
   {
     "pregunta": "Según el artículo 10 del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público, pueden nombrarse funcionarios interinos:",
@@ -187,7 +187,7 @@
       "Para la ejecución de programas de carácter temporal, que no podrán tener una duración superior a tres años, ampliables hasta doce meses más"
     ],
     "correcta": 2,
-    "explicacion": "El Art. 10.1.c del TREBEP establece que los programas de carácter temporal para los que se nombren interinos no podrán tener una duración superior a tres años, ampliable hasta doce meses más por las leyes de Función Pública."
+    "explicacion": ""
   },
   {
     "pregunta": "Cuál de las siguientes afirmaciones es cierta, respecto del personal eventual al Servicio de las Corporaciones Locales:",
@@ -197,7 +197,7 @@
       "El desempeño de un puesto de trabajo reservado a personal eventual no podrá constituir mérito para la promoción interna."
     ],
     "correcta": 2,
-    "explicacion": "El TREBEP (Art. 12.3) establece claramente que el desempeño de un puesto de personal eventual no constituirá mérito para el acceso a la Función Pública ni para la promoción interna."
+    "explicacion": ""
   },
   {
     "pregunta": "En todo caso, la ejecución de la oferta de empleo público o instrumento similar deberá desarrollarse dentro del plazo:",
@@ -207,7 +207,7 @@
       "Improrrogable de dos años."
     ],
     "correcta": 0,
-    "explicacion": "El TREBEP (Art. 70.1) establece que la ejecución de la Oferta de Empleo Público debe desarrollarse dentro del plazo improrrogable de tres años."
+    "explicacion": ""
   },
   {
     "pregunta": "La Oferta de empleo público o instrumento similar:",
@@ -217,7 +217,7 @@
       "No podrá contener medidas derivadas de la planificación de recursos humanos."
     ],
     "correcta": 0,
-    "explicacion": "La Oferta de Empleo Público es un instrumento de planificación y, como tal, puede contener medidas derivadas de la planificación estratégica de recursos humanos de la Administración (TREBEP, Art. 70)."
+    "explicacion": ""
   },
   {
     "pregunta": "Señala la incorrecta:",
@@ -227,7 +227,7 @@
       "Las relaciones de puestos de trabajo serán privadas."
     ],
     "correcta": 2,
-    "explicacion": "Las Relaciones de Puestos de Trabajo (RPT) son instrumentos de ordenación del personal de carácter público y oficial, no privado."
+    "explicacion": ""
   },
   {
     "pregunta": "Son empleados públicos:",
@@ -237,7 +237,7 @@
       "Quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales."
     ],
     "correcta": 2,
-    "explicacion": "El TREBEP (Art. 8) define a los empleados públicos como quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales."
+    "explicacion": ""
   },
   {
     "pregunta": "Según lo recogido en su Estatuto de Autonomía, en el marco de lo dispuesto en la Constitución y las correspondientes leyes del Estado, la Comunidad de Castilla y León la asistencia social, servicios sociales y desarrollo comunitario son competencias exclusivas de",
@@ -247,7 +247,7 @@
       "La Unión Europea"
     ],
     "correcta": 1,
-    "explicacion": "El Estatuto de Autonomía de Castilla y León (Art. 70.1.10º) atribuye a la Comunidad Autónoma la competencia exclusiva en materia de asistencia social, servicios sociales y desarrollo comunitario."
+    "explicacion": ""
   },
   {
     "pregunta": "Según lo recogido en su Estatuto de Autonomía, en el marco de lo dispuesto en la Constitución y las correspondientes leyes del Estado, la Comunidad de Castilla y León la prevención, atención e inserción social de los colectivos afectados por la discapacidad, la dependencia o la exclusión social son competencias exclusivas de",
@@ -257,7 +257,7 @@
       "El Gobierno de España"
     ],
     "correcta": 1,
-    "explicacion": "El Estatuto de Autonomía de Castilla y León (Art. 70.1.11º) atribuye a la Comunidad Autónoma la competencia exclusiva sobre la prevención, atención e inserción social de colectivos vulnerables."
+    "explicacion": ""
   },
   {
     "pregunta": "Según lo establecido en la Ley 16/2010, de 20 de diciembre, de Servicios Sociales de Castilla y León, ¿Cuál de las siguientes competencias en materia de servicios sociales corresponde al Ayuntamiento de León?",
@@ -267,7 +267,7 @@
       "La propuesta para la determinación de las zonas y áreas de acción social, así como las estructuras de tercer nivel que pudieran corresponderles al amparo de esta ley."
     ],
     "correcta": 2,
-    "explicacion": "La Ley 16/2010 (Art. 48.1.b) asigna a los Ayuntamientos de más de 20.000 habitantes la competencia de proponer la determinación de las zonas y áreas de acción social."
+    "explicacion": ""
   },
   {
     "pregunta": "Según lo establecido en la Ley 16/2010, de 20 de diciembre, de Servicios Sociales de Castilla y León, ¿Cuál de las siguientes competencias en materia de servicios sociales corresponde al Ayuntamiento de León?",
@@ -277,7 +277,7 @@
       "La organización y gestión del sistema unificado de información."
     ],
     "correcta": 0,
-    "explicacion": "La Ley 16/2010 (Art. 48.1.a) establece como competencia de los Ayuntamientos de más de 20.000 habitantes la organización, mantenimiento, dirección y gestión directa de los Equipos de Acción Social Básica y los CEAS."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones NO es una competencia de los ayuntamientos de más de 20.000 habitantes en materia de servicios sociales?",
@@ -287,7 +287,7 @@
       "Colaboración en la elaboración del Mapa de Servicios Sociales de Castilla y León."
     ],
     "correcta": 1,
-    "explicacion": "La aprobación del Catálogo de Servicios Sociales es competencia de la Comunidad Autónoma (Junta de Castilla y León), no de los Ayuntamientos, según la Ley 16/2010."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué estructuras organizativas deben organizar, mantener, dirigir y gestionar directamente los Ayuntamientos de más de 20.000 habitantes?",
@@ -297,7 +297,7 @@
       "El Observatorio Autonómico de Servicios Sociales."
     ],
     "correcta": 0,
-    "explicacion": "Según la Ley 16/2010 de Castilla y León, los Ayuntamientos de más de 20.000 habitantes gestionan directamente los Equipos de Acción Social Básica (EASB), ubicados en los CEAS."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes serían competencias delegadas a los Ayuntamientos de más de 20000 habitantes, según el artículo 48 de la Ley 16/2010?",
@@ -307,7 +307,7 @@
       "Financiación de programas de investigación en servicios sociales."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 16/2010 contempla la posibilidad de delegar la gestión de ayudas básicas de emergencia o urgencia social a los ayuntamientos de más de 20.000 habitantes (Art. 48.2)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué deben elaborar y actualizar los ayuntamientos en su territorio, según el artículo 48 de la Ley 16/2010?",
@@ -317,7 +317,7 @@
       "Un estudio sobre la situación económica de las personas usuarias de servicios sociales."
     ],
     "correcta": 1,
-    "explicacion": "El Art. 48.1.d de la Ley 16/2010 establece que los ayuntamientos de más de 20.000 habitantes deben elaborar y actualizar la guía de recursos sociales existentes en su territorio."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuántos CEAS hay en el municipio de León?:",
@@ -327,7 +327,7 @@
       "11"
     ],
     "correcta": 1,
-    "explicacion": "El Ayuntamiento de León cuenta con 7 Centros de Acción Social (CEAS) distribuidos en su territorio. (Información específica del municipio)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué profesionales conforman los Equipos de Acción Social Básica en el Ayuntamiento de León?",
@@ -337,7 +337,7 @@
       "Pedagogos/as"
     ],
     "correcta": 0,
-    "explicacion": "Los Trabajadores/as Sociales son los profesionales de referencia y el núcleo principal de los Equipos de Acción Social Básica (EASB) en el sistema español, aunque puedan colaborar otros perfiles."
+    "explicacion": ""
   },
   {
     "pregunta": "Es función de los Equipos de Acción Social Básica:",
@@ -347,7 +347,7 @@
       "Supervisar directamente el cuidado recibido por los niños/as en el hogar cuando existen medidas de protección de menores."
     ],
     "correcta": 0,
-    "explicacion": "La tramitación de Ayudas de Urgencia Social es una función clave de los EASB/CEAS como puerta de entrada al sistema y gestores del primer nivel de atención."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes expresiones es cierta?",
@@ -357,7 +357,7 @@
       "Según marca la normativa, existe un Centro de Acción Social en cada barrio de la ciudad de León."
     ],
     "correcta": 1,
-    "explicacion": "Los CEAS son el primer nivel de atención y el punto de acceso principal de los ciudadanos al Sistema de Servicios Sociales."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes funciones NO son propias de los CEAS del Ayuntamiento de León?",
@@ -367,7 +367,7 @@
       "Tramitar las solicitudes de Ingreso Mínimo Vital"
     ],
     "correcta": 2,
-    "explicacion": "La tramitación y gestión del Ingreso Mínimo Vital (IMV) es competencia del Instituto Nacional de la Seguridad Social (INSS), no de los CEAS municipales, aunque estos puedan informar y orientar."
+    "explicacion": ""
   },
   {
     "pregunta": "La aplicación propia que usan los profesionales de los CEAS del Ayuntamiento de León para la gestión de los casos se denomina:",
@@ -377,7 +377,7 @@
       "GESDOCLE"
     ],
     "correcta": 1,
-    "explicacion": "GESLE es el nombre específico del software o aplicación de gestión de expedientes utilizado en los CEAS del Ayuntamiento de León. (Información específica del municipio)."
+    "explicacion": ""
   },
   {
     "pregunta": "Los/as trabajadores/as sociales de los Equipos de Acción Social Básica son",
@@ -387,7 +387,7 @@
       "Los/as profesionales responsables de resolver las subvenciones a las ONG cuyo domicilio social se encuentre en su zona de actuación."
     ],
     "correcta": 0,
-    "explicacion": "El trabajador/a social del EASB actúa como profesional de referencia, siendo el primer contacto y el gestor principal del caso para el ciudadano que accede al sistema."
+    "explicacion": ""
   },
   {
     "pregunta": "Los Niveles organizativos funcionales establecidos por la Ley 16/2010, de 20 de diciembre, de servicios sociales de Castilla y León, se organizan en niveles, señale la respuesta correcta:",
@@ -397,7 +397,7 @@
       "Todas son correctas"
     ],
     "correcta": 0,
-    "explicacion": "La Ley 16/2010 estructura el sistema en niveles funcionales, definiendo el primer nivel como los Equipos de Acción Social Básica (EASB) que operan en los CEAS."
+    "explicacion": ""
   },
   {
     "pregunta": "El Acuerdo marco sobre la cofinanciación de los servicios sociales para 2024, 2025, 2026 y 2027 se firma entre:",
@@ -407,7 +407,7 @@
       "La Gerencia de Servicios Sociales de Castilla y León y las Entidades locales de menos de 20.000 habitantes de la Comunidad autónoma."
     ],
     "correcta": 1,
-    "explicacion": "El Acuerdo Marco implica a la Gerencia Regional de Servicios Sociales (Junta de CyL) y a las entidades locales responsables de la gestión (Ayuntamientos >20.000 hab. y Diputaciones para los <20.000 hab.)."
+    "explicacion": ""
   },
   {
     "pregunta": "La financiación de los equipos de acción social básica tiene como objetivos:",
@@ -417,7 +417,7 @@
       "Todas las respuestas son correctas."
     ],
     "correcta": 2,
-    "explicacion": "La financiación cubre el amplio abanico de funciones de los EASB, incluyendo tanto la información/orientación/derivación (A) como la detección/diagnóstico/valoración (B)."
+    "explicacion": ""
   },
   {
     "pregunta": "En relación con la prestación de teleasistencia, de acuerdo con la distribución legal de competencias, los equipos de acción social tendrán las siguientes funciones:",
@@ -427,7 +427,7 @@
       "Todas las respuestas son correctas."
     ],
     "correcta": 0,
-    "explicacion": "Los EASB/CEAS suelen ser la ventanilla para solicitar y tramitar el acceso a servicios como la teleasistencia, resolviendo sobre su reconocimiento, modificación o extinción según la normativa aplicable."
+    "explicacion": ""
   },
   {
     "pregunta": "El Servicio de Apoyo Familiar y Técnico a Personas en situación de Dependencia y/o Discapacidad (EPAP) se encuentra dentro de:",
@@ -437,7 +437,7 @@
       "Programa de Inclusión Social."
     ],
     "correcta": 1,
-    "explicacion": "El propio nombre del servicio (EPAP) indica que su ámbito de actuación es la atención a personas en situación de dependencia y/o discapacidad."
+    "explicacion": ""
   },
   {
     "pregunta": "El Servicio de Ayuda a Domicilio en el Acuerdo Marco 2024-2027 tiene como modalidades:",
@@ -447,7 +447,7 @@
       "Solamente la atención a personas mayores de 65 años."
     ],
     "correcta": 0,
-    "explicacion": "El Acuerdo Marco 2024-2027 para el Servicio de Ayuda a Domicilio (SAD) en Castilla y León contempla explícitamente estas tres modalidades complementarias."
+    "explicacion": ""
   },
   {
     "pregunta": "El Servicio de Apoyo Familiar y Técnico para familias vulnerables favoreciendo su Inclusión Social tiene entre sus objetivos dentro del Acuerdo Marco 2024-2027:",
@@ -457,7 +457,7 @@
       "Todas las respuestas son correctas."
     ],
     "correcta": 0,
-    "explicacion": "La valoración especializada para cubrir necesidades y promover la competencia personal y social es uno de los objetivos clave de este servicio de apoyo familiar según el Acuerdo Marco."
+    "explicacion": ""
   },
   {
     "pregunta": "La Prestación Económica para Necesidades Básicas de Subsistencia en Situación de Urgencia Social en el Acuerdo Marco 2024-2027 tiene como objetivo:",
@@ -467,7 +467,7 @@
       "Garantizar únicamente la atención de las necesidades habitacionales."
     ],
     "correcta": 0,
-    "explicacion": "El objetivo principal de esta prestación es cubrir necesidades básicas de subsistencia (alimentación, vivienda, suministros, etc.) en momentos puntuales de urgencia para evitar la exclusión social."
+    "explicacion": ""
   },
   {
     "pregunta": "El Servicio de atención en Centros de día para el Apoyo a la Infancia y adolescencia en riesgo, dentro del Acuerdo Marco 2024-2027 tiene entre sus objetivos:",
@@ -477,7 +477,7 @@
       "Apoyar a las familias en situación de riesgo en el cuidado y la atención de las personas menores que lo precisen y de los mayores de edad que así lo consientan."
     ],
     "correcta": 1,
-    "explicacion": "Los centros de día de infancia y adolescencia en riesgo buscan proporcionar una atención integral durante el día a los menores, compensando carencias o dificultades familiares."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de los siguientes servicios NO ofrece el CEMAI?",
@@ -487,7 +487,7 @@
       "Alojamiento temporal de personas solicitantes de Asilo y/o refugio."
     ],
     "correcta": 2,
-    "explicacion": "El CEMAI se centra en información, asesoramiento e integración. El alojamiento para solicitantes de asilo suele gestionarse a través del sistema nacional de acogida específico, no directamente por el CEMAI municipal."
+    "explicacion": ""
   },
   {
     "pregunta": "El Centro Municipal de Atención a Inmigrantes del Ayuntamiento de León",
@@ -497,17 +497,17 @@
       "Ofrece ayudas económicas para subvencionar los viajes de retorno a los países de origen de aquellas personas que desean volver."
     ],
     "correcta": 0,
-    "explicacion": "El CEMAI proporciona información y orientación sobre las opciones existentes, incluyendo los programas de retorno voluntario, aunque no gestione directamente las ayudas o la tramitación completa."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes funciones NO es propia del CEMAI?",
     "respuestas": [
       "Favorecer la interculturalidad y convivencia entre la población inmigrante y la de acogida.",
-      "Fomentar el asociacionismo y la incorporación de personas inmigrantes a otras organizaciones sociales.",
+      "Fomentar el asociacionismo y la incorporation de personas inmigrantes a otras organizaciones sociales.",
       "Tramitar y resolver solicitudes de residencia temporal por circunstancias excepcionales de las personas migrantes."
     ],
     "correcta": 2,
-    "explicacion": "La tramitación y resolución de permisos de residencia es competencia exclusiva de la Administración General del Estado (Oficinas de Extranjería), no de un centro municipal como el CEMAI."
+    "explicacion": ""
   },
   {
     "pregunta": "Entre las acciones de apoyo para la obtención de la nacionalidad española, el CEMAI del Ayuntamiento de León proporciona, señala la respuesta más correcta",
@@ -517,7 +517,7 @@
       "Los servicios anteriores son ofrecidos por el CEMAI."
     ],
     "correcta": 2,
-    "explicacion": "El CEMAI ofrece tanto la información sobre el proceso (A) como el apoyo práctico para la inscripción en los exámenes requeridos (B)."
+    "explicacion": ""
   },
   {
     "pregunta": "El CEMAI forma parte de:",
@@ -527,7 +527,7 @@
       "Red de asociaciones de inmigrantes."
     ],
     "correcta": 0,
-    "explicacion": "RAPICYL es la Red de Atención a las Personas Inmigrantes de Castilla y León, de la cual el CEMAI de León es un punto integrante."
+    "explicacion": ""
   },
   {
     "pregunta": "Según el artículo 8.4 del Decreto 17/2016, de 23 de junio, por el que se regula la Red de Atención a las Personas Inmigrantes de la Comunidad de Castilla y León, el Ayuntamiento de León a través del CEMAI tendrá entre otras obligaciones:",
@@ -537,7 +537,7 @@
       "Todas las respuestas son incorrectas."
     ],
     "correcta": 0,
-    "explicacion": "El Decreto que regula la red establece como obligación fundamental garantizar la atención en condiciones de igualdad, sin discriminación por nacionalidad."
+    "explicacion": ""
   },
   {
     "pregunta": "El CEMAI realiza los informes de integración para el arraigo",
@@ -547,7 +547,7 @@
       "Familiar"
     ],
     "correcta": 1,
-    "explicacion": "El CEMAI es competente para emitir el informe de integración social, necesario para el procedimiento de autorización de residencia por circunstancias excepcionales conocido como 'arraigo social'."
+    "explicacion": ""
   },
   {
     "pregunta": "El CEMAI se puso en marcha en el año:",
@@ -557,7 +557,7 @@
       "1995"
     ],
     "correcta": 1,
-    "explicacion": "Fecha de inicio de actividad del Centro Municipal de Atención a Inmigrantes de León. (Dato histórico específico del servicio)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es el objetivo principal del Hogar Municipal de Transeúntes?",
@@ -567,7 +567,7 @@
       "Dar asistencia médica y psicológica a personas con problemas de adicción."
     ],
     "correcta": 1,
-    "explicacion": "El Hogar está diseñado para ofrecer una solución temporal de alojamiento y atención básica a personas sin hogar que se encuentran de paso o en una situación puntual de exclusión."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué casos se puede denegar el acceso al Hogar?",
@@ -577,7 +577,7 @@
       "Si la persona tiene antecedentes penales."
     ],
     "correcta": 1,
-    "explicacion": "El reglamento del Hogar suele incluir como causa de denegación la presentación bajo efectos de sustancias o con conductas violentas que alteren la convivencia o pongan en riesgo a otros usuarios o al personal."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es la duración máxima general de la estancia en el Hogar?",
@@ -587,7 +587,7 @@
       "Un mes completo, renovable por otro mes más."
     ],
     "correcta": 0,
-    "explicacion": "El Reglamento del Hogar Municipal de Transeúntes de León establece este límite general de estancia para asegurar la rotación y su carácter temporal. (Dato específico del reglamento)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué servicio NO se ofrece en el Hogar?",
@@ -597,7 +597,7 @@
       "Servicio de acogida diurna durante los meses de frío."
     ],
     "correcta": 1,
-    "explicacion": "Los hogares de transeúntes suelen ofrecer alojamiento nocturno, higiene y quizás desayuno/cena ligera, pero un servicio completo de comedor con almuerzo y cena no es lo habitual ni garantizado. (Basado en el funcionamiento típico y reglamento específico)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es uno de los deberes de los usuarios del Hogar?",
@@ -607,7 +607,7 @@
       "Respetar las normas de funcionamiento del Hogar y los horarios establecidos."
     ],
     "correcta": 2,
-    "explicacion": "El cumplimiento de las normas internas y los horarios es un deber fundamental para la convivencia y el buen funcionamiento del centro."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué se considera una infracción leve?",
@@ -617,7 +617,7 @@
       "Robar objetos pertenecientes a otros usuarios del Hogar."
     ],
     "correcta": 0,
-    "explicacion": "Los daños leves causados por descuido o negligencia suelen tipificarse como infracción leve en los reglamentos de régimen interno. Las agresiones o robos serían graves o muy graves."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué medida correctora se puede aplicar por una infracción grave?",
@@ -627,7 +627,7 @@
       "Obligación de realizar trabajos comunitarios en la ciudad."
     ],
     "correcta": 1,
-    "explicacion": "La suspensión temporal del derecho de acceso es una sanción proporcional a una infracción grave que haya alterado significativamente la convivencia o incumplido normas importantes."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuándo entra en vigor el Reglamento del Hogar Municipal de Transeúntes?",
@@ -637,7 +637,7 @@
       "Tras un periodo de prueba de seis meses desde su aprobación inicial."
     ],
     "correcta": 1,
-    "explicacion": "Las ordenanzas y reglamentos municipales entran en vigor tras su publicación completa en el Boletín Oficial de la Provincia (BOP), salvo que dispongan otra cosa (LRBRL)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de los siguientes principios busca proporcionar a las personas mayores un estilo de vida lo más cercano posible al que podrían disfrutar en su entorno familiar y social?",
@@ -647,7 +647,7 @@
       "Normalización."
     ],
     "correcta": 2,
-    "explicacion": "El principio de normalización persigue que la vida en la institución (residencia) se asemeje lo máximo posible a la vida en el entorno comunitario habitual de la persona."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué órgano de la Residencia tiene la función de emitir informes, formular propuestas y elaborar memorias técnicas?",
@@ -657,7 +657,7 @@
       "El Consejo Técnico Asesor."
     ],
     "correcta": 2,
-    "explicacion": "El Consejo Técnico Asesor, compuesto por profesionales del centro, es el órgano idóneo para realizar estas funciones técnicas de evaluación, propuesta y memoria."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Quiénes eligen a los dos representantes de los residentes que forman parte del Consejo de Participación?",
@@ -667,7 +667,7 @@
       "La Dirección del centro."
     ],
     "correcta": 1,
-    "explicacion": "El principio de participación democrática implica que los representantes de los residentes sean elegidos por ellos mismos mediante un proceso electoral interno."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué tipo de documento deben firmar los residentes o sus familiares al contratar servicios externos que impliquen el acceso a la Residencia?",
@@ -677,7 +677,7 @@
       "Un documento que exonere al Ayuntamiento de León de toda responsabilidad en relación a las consecuencias derivadas de dichos servicios."
     ],
     "correcta": 2,
-    "explicacion": "Para proteger al Ayuntamiento de posibles responsabilidades derivadas de servicios externos contratados privadamente por el residente, se requiere un documento de exoneración de responsabilidad."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué casos se permite la presencia de familiares o visitantes en el comedor de la residencia?",
@@ -687,7 +687,7 @@
       "En ningún caso."
     ],
     "correcta": 0,
-    "explicacion": "La norma general suele permitir el acceso de visitantes al comedor previa solicitud y, a menudo, abonando el coste, aunque pueda haber limitaciones de espacio o días."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué obligación tiene el Ayuntamiento de León con respecto a la formación del personal del centro?",
@@ -697,7 +697,7 @@
       "No tiene ninguna obligación en cuanto a la formación del personal."
     ],
     "correcta": 1,
-    "explicacion": "El Ayuntamiento, como titular del centro y empleador, tiene la obligación de garantizar la adecuada cualificación del personal mediante la supervisión y planificación de su formación continua."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué ocurre si un residente causa daños a las instalaciones de la residencia de forma intencionada?",
@@ -707,7 +707,7 @@
       "El Ayuntamiento de León se responsabiliza de la reparación."
     ],
     "correcta": 1,
-    "explicacion": "La responsabilidad civil por daños causados intencionadamente recae sobre quien los causa, por lo que el residente (o sus responsables legales/familiares) deben asumir el coste."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Quién es responsable de trasladar a un residente a una consulta médica fuera de la residencia?",
@@ -717,7 +717,7 @@
       "El Ayuntamiento de León debe proporcionar un servicio de transporte."
     ],
     "correcta": 1,
-    "explicacion": "Generalmente, el acompañamiento y traslado a consultas médicas externas es responsabilidad de la familia del residente, aunque la residencia pueda colaborar o facilitar información."
+    "explicacion": ""
   },
   {
     "pregunta": "¿A quiénes van dirigidas las Ayudas de Urgencia Social?",
@@ -727,7 +727,7 @@
       "A personas mayores de edad o menores emancipados que no puedan hacer frente a gastos específicos para prevenir o paliar situaciones de exclusión social."
     ],
     "correcta": 2,
-    "explicacion": "La Ordenanza de Ayudas de Urgencia Social define como destinatarios a personas (mayores de edad o emancipados) o unidades familiares que atraviesan una situación de necesidad puntual para cubrir gastos específicos y evitar la exclusión."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué requisito de empadronamiento se exige para ser beneficiario de una Ayuda de Urgencia Social?",
@@ -737,7 +737,7 @@
       "No se exige ningún requisito de empadronamiento para solicitar la ayuda."
     ],
     "correcta": 1,
-    "explicacion": "La Ordenanza municipal de Ayudas de Urgencia Social de León establece este doble requisito de empadronamiento: 6 meses previos en la Comunidad y estar empadronado en León al solicitarla. (Requisito específico de la ordenanza)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué casos se puede eximir del requisito de empadronamiento?",
@@ -747,7 +747,7 @@
       "Si el solicitante acredita haber trabajado en León durante al menos tres meses."
     ],
     "correcta": 1,
-    "explicacion": "La propia ordenanza suele contemplar excepciones al requisito de empadronamiento para situaciones de extrema urgencia o vulnerabilidad sobrevenida que pongan en grave riesgo la subsistencia."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es el límite máximo de ingresos para acceder a una Ayuda de Urgencia Social?",
@@ -757,7 +757,7 @@
       "El equivalente a 1,2 veces el IPREM anual, con incrementos por miembros adicionales de la unidad familiar."
     ],
     "correcta": 2,
-    "explicacion": "La Ordenanza establece un umbral de ingresos basado en el Indicador Público de Renta de Efectos Múltiples (IPREM), fijándolo en 1,2 veces su valor anual y aumentándolo según el número de miembros de la familia."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué documento NO se incluye en la solicitud de la Ayuda de Urgencia Social?",
@@ -767,7 +767,7 @@
       "Informe médico que acredite la situación de vulnerabilidad del solicitante."
     ],
     "correcta": 2,
-    "explicacion": "La valoración de la vulnerabilidad se realiza mediante informe social, no exigiéndose como requisito general un informe médico específico, aunque pueda aportarse si es relevante para el caso."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Quién emite el informe social para valorar la situación del solicitante de la ayuda?",
@@ -777,7 +777,7 @@
       "Un técnico de los Equipos de Inclusión Social."
     ],
     "correcta": 1,
-    "explicacion": "El informe social preceptivo es elaborado por el Trabajador Social del CEAS que corresponde al domicilio del solicitante, ya que es el profesional de referencia en el primer nivel de atención."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Quién se encarga de la resolución final sobre la concesión o denegación de la Ayuda de Urgencia Social?",
@@ -787,7 +787,7 @@
       "El Jefe del Servicio de Información Social, Prestaciones e Igualdad."
     ],
     "correcta": 1,
-    "explicacion": "La Ordenanza establece una Comisión de Valoración específica, compuesta por técnicos y/o responsables políticos, que es la encargada de evaluar las propuestas y tomar la decisión final."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué plazo debe resolverse el expediente de solicitud de la Ayuda de Urgencia Social?",
@@ -797,7 +797,7 @@
       "Tres meses desde la emisión del informe social."
     ],
     "correcta": 1,
-    "explicacion": "La Ordenanza reguladora de las Ayudas de Urgencia Social fija un plazo máximo de resolución de un mes, contado desde la presentación de la solicitud completa o desde la subsanación de deficiencias."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué tipo de servicios se consideran esenciales para las víctimas de violencia de género según el artículo 17 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -807,7 +807,7 @@
       "Servicios de transporte público gratuito."
     ],
     "correcta": 1,
-    "explicacion": "La Ley Orgánica 1/2004 (principalmente en su Art. 19 sobre derechos, aunque el 17 trata la coordinación) garantiza un conjunto de servicios integrales considerados esenciales, como los enumerados en la opción B, para la protección y apoyo a las víctimas."
+    "explicacion": ""
   },
   {
     "pregunta": "¿A qué tienen derecho las mujeres víctimas de violencia de género según el artículo 18 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -817,7 +817,7 @@
       "A recibir información sobre las opciones de ocio existentes en su ciudad."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 18 de la LO 1/2004 establece específicamente el derecho de las víctimas a recibir información y asesoramiento completo y adaptado sobre todos los recursos y derechos que la ley les reconoce."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué tipo de atención sanitaria se garantiza a las mujeres víctimas la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -827,7 +827,7 @@
       "Atención sanitaria especializada en tratamientos de fertilidad."
     ],
     "correcta": 1,
-    "explicacion": "La LO 1/2004 garantiza el derecho a la atención sanitaria integral, incluyendo específicamente la atención psicológica y psiquiátrica, así como el seguimiento médico necesario para la recuperación."
+    "explicacion": ""
   },
   {
     "pregunta": "¿A qué tipo de asistencia jurídica tienen derecho las víctimas de violencia de género según el artículo 20 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -837,7 +837,7 @@
       "A recibir asesoramiento jurídico gratuito solo si se encuentran en situación de desempleo."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 20 de la LO 1/2004 reconoce a las víctimas el derecho a la asistencia jurídica gratuita de forma inmediata (incluso antes de denunciar) y completa (abogado y procurador) en todos los procesos judiciales y administrativos relacionados."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué derechos laborales se reconocen a la trabajadora víctima de violencia de género en el artículo 21 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -847,7 +847,7 @@
       "Derecho a trabajar desde casa de forma permanente."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 21 de la LO 1/2004 detalla un catálogo específico de derechos laborales para facilitar la protección y la recuperación de la víctima trabajadora, incluyendo los mencionados en la opción B."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cómo se consideran las ausencias o faltas de puntualidad al trabajo motivadas por la situación física o psicológica derivada de la violencia de género según el artículo 21 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -857,7 +857,7 @@
       "Se consideran justificadas sólo si la víctima presenta una orden de alejamiento."
     ],
     "correcta": 1,
-    "explicacion": "El Art. 21.4 de la LO 1/2004 establece que estas ausencias se consideran justificadas y deben ser remuneradas si están acreditadas por los servicios sociales o de salud competentes."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué medidas se incluyen en el programa específico de empleo para víctimas de violencia de género según el artículo 22 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -867,7 +867,7 @@
       "Medidas para la obtención de préstamos bancarios sin intereses."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 22 de la LO 1/2004 menciona que el programa específico de empleo incluirá medidas para apoyar el trabajo por cuenta propia (autoempleo) de las víctimas."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cómo se acreditan las situaciones de violencia de género que dan lugar al reconocimiento de los derechos regulados en esta ley según el artículo 23 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género?",
@@ -877,7 +877,7 @@
       "Sólo mediante la declaración de la víctima ante la policía."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 23 de la LO 1/2004 enumera una variedad de medios válidos para acreditar la condición de víctima a efectos de acceder a los derechos, no limitándose a la sentencia condenatoria."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es la finalidad del sistema de servicios sociales según la Ley 16/2010?",
@@ -887,7 +887,7 @@
       "Gestionar las infraestructuras sanitarias de la comunidad."
     ],
     "correcta": 0,
-    "explicacion": "La Ley 16/2010 de Servicios Sociales de Castilla y León establece como su finalidad primordial asegurar la cobertura de necesidades básicas y sociales, fomentando la autonomía y el bienestar."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones NO es un objetivo de los servicios sociales según la Ley 16/2010?",
@@ -897,7 +897,7 @@
       "Otorgar becas para estudios universitarios a personas inmigrantes en riesgo de exclusión."
     ],
     "correcta": 2,
-    "explicacion": "Aunque los servicios sociales pueden apoyar la inclusión educativa, la concesión de becas universitarias no es un objetivo específico y central de la Ley de Servicios Sociales, sino más bien de políticas educativas o de igualdad de oportunidades."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de los siguientes NO es un principio rector del sistema de servicios sociales de responsabilidad pública?",
@@ -907,7 +907,7 @@
       "Calidad."
     ],
     "correcta": 1,
-    "explicacion": "El sistema se basa en la universalidad del acceso, no en la exclusividad. La exclusividad iría en contra del derecho de todos los ciudadanos a acceder a los servicios si cumplen los requisitos."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué principio rector busca que las políticas de servicios sociales actúen preferentemente sobre las causas de los problemas sociales?",
@@ -917,7 +917,7 @@
       "Proximidad y normalización."
     ],
     "correcta": 0,
-    "explicacion": "El principio de prevención implica intervenir sobre los factores que originan las necesidades y problemas sociales para evitar que surjan o se agraven."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué tipo de prestaciones esenciales se garantiza a las personas mayores de 80 años que las demanden?",
@@ -927,7 +927,7 @@
       "Servicio de compra de alimentos."
     ],
     "correcta": 1,
-    "explicacion": "El Servicio de Ayuda a Domicilio (SAD) es una prestación esencial clave para personas dependientes, incluyendo a mayores de 80 años que cumplan los criterios de dependencia establecidos, según la Ley 16/2010 y la Ley de Dependencia."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué casos las prestaciones esenciales de ayuda a domicilio, asistencia personal, etc., tendrán la condición de esenciales?",
@@ -937,7 +937,7 @@
       "Cuando la persona solicitante tenga más de 65 años."
     ],
     "correcta": 1,
-    "explicacion": "Estas prestaciones adquieren el carácter de 'esenciales' cuando se otorgan en el marco del Sistema para la Autonomía y Atención a la Dependencia (SAAD), regulado por la Ley 39/2006."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Las prestaciones no esenciales tienen la naturaleza de derecho subjetivo?",
@@ -947,7 +947,7 @@
       "Sólo en casos excepcionales."
     ],
     "correcta": 1,
-    "explicacion": "Las prestaciones no esenciales no son un derecho subjetivo exigible directamente por el ciudadano; su concesión suele estar condicionada a la disponibilidad presupuestaria y a criterios técnicos de valoración."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes afirmaciones NO es correcta?",
@@ -957,7 +957,7 @@
       "El Bono de Nacimiento está considerado como prestación esencial en la Ley 16/2010."
     ],
     "correcta": 2,
-    "explicacion": "El Bono Nacimiento es una medida de apoyo a las familias, pero no se clasifica como una prestación esencial del sistema de servicios sociales según la Ley 16/2010. La RGC y las prestaciones de dependencia sí lo son."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es el objeto principal de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -967,7 +967,7 @@
       "Establecer un sistema de pensiones no contributivas para personas con discapacidad."
     ],
     "correcta": 1,
-    "explicacion": "La propia exposición de motivos y el articulado de la Ley 39/2006 establecen como su objeto central garantizar el derecho a la autonomía y la atención a la dependencia en condiciones de igualdad."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cómo se define la \"dependencia\" según la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -977,7 +977,7 @@
       "Situación de vulnerabilidad social que requiere apoyo económico para la subsistencia."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 2.2 de la Ley 39/2006 define la dependencia como ese estado de carácter permanente en el que se necesita ayuda de terceros para las actividades básicas diarias."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué se entiende por \"Autonomía\" en el contexto de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -987,7 +987,7 @@
       "Acceso a servicios de transporte adaptado para personas con movilidad reducida."
     ],
     "correcta": 1,
-    "explicacion": "El artículo 2.1 de la Ley 39/2006 define la autonomía como la capacidad de controlar, afrontar y tomar decisiones personales sobre la propia vida y las actividades cotidianas."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué son los \"cuidados no profesionales\" en el contexto de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -997,7 +997,7 @@
       "Actividades de voluntariado en centros de día o residencias."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 39/2006 se refiere a los cuidados no profesionales como aquellos prestados en el domicilio por familiares o personas cercanas, asociados a una prestación económica para el cuidador familiar."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de los siguientes NO es un principio rector de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -1007,7 +1007,7 @@
       "Atención integral e integrada."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 39/2006 establece la universalidad del derecho para todas las personas dependientes, no la exclusividad para un grupo de edad."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué principio busca la permanencia de las personas dependientes en su entorno habitual?",
@@ -1017,7 +1017,7 @@
       "Calidad y sostenibilidad de los servicios."
     ],
     "correcta": 1,
-    "explicacion": "El principio de permanencia en el entorno (Art. 3 Ley 39/2006) prioriza que las personas dependientes puedan seguir viviendo en su casa y entorno habitual siempre que sea posible."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué principio promueve la adaptación de las intervenciones a las necesidades individuales?",
@@ -1027,7 +1027,7 @@
       "Participación del tercer sector."
     ],
     "correcta": 0,
-    "explicacion": "El principio de personalización (Art. 3 Ley 39/2006) implica diseñar e implementar las actuaciones y servicios de forma adaptada a las necesidades y preferencias de cada persona."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de los siguientes principios NO está explícitamente mencionado en la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia?",
@@ -1037,7 +1037,7 @@
       "Participación de la iniciativa privada."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 39/2006 establece un sistema de copago basado en la capacidad económica del beneficiario, por lo que la gratuidad total para todos no es un principio de la ley, aunque sí la financiación pública y la equidad."
+    "explicacion": ""
   },
   {
     "pregunta": "Los Equipos de Apoyo a Familias del Ayuntamiento de León se ubican orgánicamente en el servicio de:",
@@ -1047,7 +1047,7 @@
       "Familia, infancia y acción comunitaria."
     ],
     "correcta": 2,
-    "explicacion": "Estos equipos especializados en intervención familiar suelen depender del área o servicio municipal que gestiona las políticas de familia e infancia. (Estructura organizativa municipal)."
+    "explicacion": ""
   },
   {
     "pregunta": "Los Equipos de Intervención Familiar en el Ayuntamiento de León están formados por:",
@@ -1057,7 +1057,7 @@
       "Profesionales de la educación familiar y la psicología"
     ],
     "correcta": 2,
-    "explicacion": "Esta parece ser la composición específica de los equipos de intervención familiar (PIF) en el Ayuntamiento de León, con perfiles centrados en la educación familiar y la psicología. (Composición específica local)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es la finalidad principal del Programa de Intervención Familiar (PIF)?",
@@ -1067,7 +1067,7 @@
       "Trabajar con familias biológicas de niños en situación de riesgo o desamparo para fortalecer su capacidad de atención."
     ],
     "correcta": 2,
-    "explicacion": "El PIF es un programa especializado que busca preservar el medio familiar de menores en riesgo o desamparo, trabajando con los padres/tutores para mejorar sus competencias parentales."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué casos NO se considera necesaria la intervención de un PIF?",
@@ -1077,7 +1077,7 @@
       "Cuando existen posibilidades, aunque sean escasas, de que los padres/tutores corrijan las conductas que ponen en riesgo al menor."
     ],
     "correcta": 1,
-    "explicacion": "Si los trastornos mentales de los progenitores son tan graves que anulan su capacidad parental, la intervención del PIF puede no ser viable o suficiente, requiriéndose otras medidas (protectoras, sanitarias)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué instrumento estandarizado se utiliza para evaluar el nivel de bienestar del niño/a en el hogar familiar?",
@@ -1087,7 +1087,7 @@
       "GENCAT"
     ],
     "correcta": 1,
-    "explicacion": "La escala HDME (Home Observation for Measurement of the Environment) es una herramienta estandarizada utilizada internacionalmente y en España para evaluar la calidad del entorno familiar y su impacto en el desarrollo infantil."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes opciones NO es un objetivo específico de la Fase de Observación en la intervención del PIF?",
@@ -1097,7 +1097,7 @@
       "Evaluar la conciencia de los padres sobre sus dificultades en la crianza y su motivación de cambio."
     ],
     "correcta": 0,
-    "explicacion": "La fase de observación se centra en recoger información y evaluar (B y C). El desarrollo del plan de tratamiento o intervención (A) corresponde a una fase posterior, una vez finalizada la evaluación inicial."
+    "explicacion": ""
   },
   {
     "pregunta": "Como se puede definir a un equipo de intervención familiar:",
@@ -1107,7 +1107,7 @@
       "Un equipo interdisciplinar (psicólogo/a y monitores/as de tiempo libre) que presta atención especializada en el domicilio a familias con niños, niñas y adolescentes en situación de riesgo o desamparo."
     ],
     "correcta": 0,
-    "explicacion": "La definición más ajustada incluye un equipo interdisciplinar con perfiles socioeducativos y psicológicos (como psicólogo/a y educador/a social) que interviene de forma especializada con familias y menores en riesgo."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuántos equipos de intervención familiar trabajan en el Ayuntamiento de León?",
@@ -1117,7 +1117,7 @@
       "4"
     ],
     "correcta": 2,
-    "explicacion": "Número específico de Equipos de Intervención Familiar (PIF) existentes en el Ayuntamiento de León. (Dato específico local)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué ley establece las funciones de los equipos multidisciplinares específicos en materia de inclusión social?",
@@ -1127,7 +1127,7 @@
       "Decreto 13/1990 de 25 de Enero."
     ],
     "correcta": 1,
-    "explicacion": "La Ley 16/2010 de Servicios Sociales de Castilla y León es la que regula la estructura del sistema, incluyendo los equipos específicos como los EDIS, y establece su marco funcional."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál es la función principal de los Equipos de Inclusión Social (EDIS)?",
@@ -1137,7 +1137,7 @@
       "Ofrecer alojamiento a personas sin hogar."
     ],
     "correcta": 1,
-    "explicacion": "Los EDIS actúan como un segundo nivel de intervención, abordando de forma especializada necesidades complejas de personas en exclusión que no pueden ser cubiertas adecuadamente por el primer nivel (CEAS)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿A quiénes NO está dirigida la función de orientación y asesoramiento de los EDIS?",
@@ -1147,7 +1147,7 @@
       "Empresas privadas que buscan contratar personas en exclusión social."
     ],
     "correcta": 2,
-    "explicacion": "La orientación y asesoramiento técnico de los EDIS se dirige a los propios usuarios y a la coordinación con otros profesionales (CEAS, otros servicios), no directamente a empresas privadas, aunque colaboren en itinerarios de inserción laboral."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Cuál de las siguientes NO es una prestación del Catálogo de Prestaciones que puede ser facilitada por los EDIS?",
@@ -1157,7 +1157,7 @@
       "Servicio de apoyo a la integración sociolaboral de personas en riesgo de exclusión social."
     ],
     "correcta": 1,
-    "explicacion": "Si bien los EDIS trabajan con personas con problemáticas complejas que pueden requerir apoyo psicológico, la prestación directa de 'atención psicológica especializada' suele corresponder a servicios de Salud Mental u otros recursos específicos, no siendo una prestación estándar facilitada *por* el EDIS."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué condición se debe cumplir para que los EDIS intervengan en un caso?",
@@ -1167,7 +1167,7 @@
       "Que se hayan demostrado como insuficientes o inadecuados otros recursos disponibles en el sistema de servicios sociales."
     ],
     "correcta": 2,
-    "explicacion": "La intervención de los EDIS se justifica cuando la complejidad del caso supera la capacidad de intervención del primer nivel (CEAS) u otros recursos disponibles, requiriendo una actuación especializada de segundo nivel."
+    "explicacion": ""
   },
   {
     "pregunta": "¿Qué documento se utiliza para la derivación de casos del primer (CEAS) al segundo nivel de intervención (EDIS)?",
@@ -1177,7 +1177,7 @@
       "Informe resumen final."
     ],
     "correcta": 1,
-    "explicacion": "Existe un procedimiento y un documento específico, la 'Ficha de canalización CEAS', para formalizar la derivación de un caso desde el CEAS al EDIS. (Procedimiento interno)."
+    "explicacion": ""
   },
   {
     "pregunta": "¿En qué comisión municipal tienen los técnicos de los EDIS asignadas funciones de secretaría?",
@@ -1187,7 +1187,7 @@
       "Comisión Municipal de Inclusión social y RGC."
     ],
     "correcta": 2,
-    "explicacion": "Dada la especialización de los EDIS en inclusión social y su trabajo con perceptores de Renta Garantizada de Ciudadanía (RGC), es habitual que sus técnicos asuman la secretaría de la comisión municipal relacionada con estas materias."
+    "explicacion": ""
   },
   {
     "pregunta": "Los Equipos de Inclusión Social (EDIS) son",
@@ -1197,6 +1197,6 @@
       "Equipos multidisciplinares que intervienen con personas con discapacidad con el objetivo de mejorar su autonomía personal y su integración social."
     ],
     "correcta": 0,
-    "explicacion": "Esta es la definición que mejor describe la naturaleza y el ámbito de actuación de los EDIS: equipos multidisciplinares enfocados en la intervención especializada con personas y familias en exclusión social."
+    "explicacion": ""
   }
 ]
