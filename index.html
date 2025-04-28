@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        /* Estilos personalizados */
+        /* Estilos personalizados (iguales que antes) */
         body {
             font-family: 'Poppins', sans-serif;
             background-color: #1e293b; /* Gray 800 */
@@ -43,6 +43,12 @@
             background-color: #475569; /* Gray 600 */
             color: #f8fafc; /* Gray 50 */
             border-radius: 0.375rem; /* Ajuste para pantallas pequeñas */
+            padding: 0.5rem 0.75rem; /* Padding consistente */
+        }
+        /* Estilo específico para el input numérico */
+        input[type=number] {
+             appearance: textfield; /* Oculta flechas en algunos navegadores */
+             -moz-appearance: textfield; /* Firefox */
         }
 
         .btn-primary {
@@ -52,10 +58,16 @@
             font-size: 0.875rem; /* Ajuste para pantallas pequeñas */
             padding: 0.75rem 1.5rem; /* Ajuste para pantallas pequeñas */
         }
+         .btn-primary:disabled { /* Estilo para botón deshabilitado */
+             background-color: #52525b; /* zinc-600 */
+             cursor: not-allowed;
+             opacity: 0.7;
+        }
 
-        .btn-primary:hover {
+        .btn-primary:hover:not(:disabled) { /* Hover solo si no está deshabilitado */
             background-color: #0d9488; /* Teal 600 */
         }
+
 
         .respuesta {
             background-color: #475569; /* Gray 600 */
@@ -64,10 +76,16 @@
             font-size: 0.875rem; /* Ajuste para pantallas pequeñas */
             padding: 0.75rem; /* Ajuste para pantallas pequeñas */
             border-radius: 0.375rem; /* Ajuste para pantallas pequeñas */
+            border: 1px solid #475569; /* Borde sutil para mejor definición */
+            cursor: pointer;
         }
-
-        .respuesta:hover {
-            background-color: #64748b; /* Gray 500 */
+        .respuesta:not(:disabled):hover { /* Hover solo si no está deshabilitado */
+             background-color: #64748b;  /* Gray 500 */
+             border-color: #94a3b8; /* Gray 400 */
+        }
+        .respuesta:disabled { /* Estilo para botones deshabilitados */
+             opacity: 0.6;
+             cursor: not-allowed;
         }
 
         .marcador {
@@ -77,11 +95,13 @@
         }
 
         .btn-verde {
-            background-color: #22c55e; /* Green 500 */
+            background-color: #22c55e !important; /* Green 500 con !important para sobreescribir */
+            border-color: #16a34a !important; /* Borde más oscuro */
         }
         .btn-rojo {
-            background-color: #ef4444; /* Red 500 */
-        }   
+            background-color: #ef4444 !important; /* Red 500 con !important */
+            border-color: #dc2626 !important; /* Borde más oscuro */
+        }
 
         #barraProgreso {
             background-color: #4a5568; /* Gray 700 */
@@ -96,64 +116,89 @@
             width: 0;
             transition: width 0.5s ease-in-out;
         }
-        
+
         #resultado {
-            background-color: #475569;
+            background-color: #475569; /* Gray 600 */
+            border: 1px solid #64748b; /* Gray 500 */
         }
     </style>
 </head>
 <body class="p-4">
     <div class="mx-auto max-w-md md:max-w-2xl"> <!-- Este contenedor controla el ancho -->
-        <div class="card p-8">
-            <h1 class="text-3xl font-semibold text-center heading mb-6">Examen Tipo Test</h1>
+        <div class="card p-6 md:p-8"> <!-- Ajustado padding para móviles -->
+            <!-- Título Cambiado -->
+            <h1 class="text-2xl md:text-3xl font-semibold text-center heading mb-6">Configuración del examen tipo test</h1>
 
             <!-- Contenedor de la configuración -->
-            <div id="configuracion" class="mb-6">
-                <label for="numPreguntas" class="block text-sm font-bold label mb-2">Número de preguntas:</label>
-                <input type="number" id="numPreguntas" min="1" value="5" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
+            <div id="configuracion" class="mb-6 space-y-4">
+                <div>
+                    <label for="selectBloque" class="block text-sm font-bold label mb-2">Selecciona Bloque:</label>
+                    <select id="selectBloque" class="shadow appearance-none border rounded w-full leading-tight focus:outline-none focus:shadow-outline">
+                        <option value="TODOS">TODOS LOS BLOQUES</option>
+                        <!-- Opciones de bloque se llenarán dinámicamente -->
+                    </select>
+                </div>
 
-                <label for="dificultad" class="block text-sm font-bold label mb-2">Dificultad:</label>
-                <select id="dificultad" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline">
-                    <option value="normal">Normal</option>
-                    <option value="penaliza_05">Penaliza -0.5</option>
-                    <option value="penaliza_1">Penaliza -1</option>
-                </select>
+                <div>
+                    <label for="selectTema" class="block text-sm font-bold label mb-2">Selecciona Tema:</label>
+                    <select id="selectTema" class="shadow appearance-none border rounded w-full leading-tight focus:outline-none focus:shadow-outline">
+                        <option value="TODOS">TODOS LOS TEMAS</option>
+                        <!-- Opciones de tema se llenarán dinámicamente -->
+                    </select>
+                </div>
+
+                <div>
+                    <label for="numPreguntas" class="block text-sm font-bold label mb-2">Número de preguntas:</label>
+                    <!-- Eliminado value="5" -->
+                    <input type="number" id="numPreguntas" min="1" class="shadow appearance-none border rounded w-full leading-tight focus:outline-none focus:shadow-outline">
+                    <p id="maxPreguntasInfo" class="text-xs text-gray-400 mt-1"></p> <!-- Info preguntas disponibles -->
+                </div>
+
+                <div>
+                    <label for="dificultad" class="block text-sm font-bold label mb-2">Dificultad (penalización por fallo):</label>
+                    <select id="dificultad" class="shadow appearance-none border rounded w-full leading-tight focus:outline-none focus:shadow-outline">
+                        <option value="normal">Normal (0 puntos)</option>
+                        <option value="penaliza_05">Fácil (-0.5 puntos)</option>
+                        <option value="penaliza_1">Difícil (-1 punto)</option>
+                    </select>
+                </div>
 
                 <button id="btnComenzar" class="btn-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full mt-4">Comenzar Examen</button>
             </div>
 
-            <!-- Contenedor del examen -->
-            <div id="examen" class="p-4">
-                <div class="marcador">
-                    Puntuación: <span id="puntuacion">0</span><br>
-                    Correctas: <span id="correctas">0</span><br>
-                    Falladas: <span id="falladas">0</span>
-                </div>
+            <!-- Contenedor del examen (sin cambios aquí) -->
+            <div id="examen" class="p-4" style="display: none;">
+                <div class="marcador grid grid-cols-3 gap-2 text-center mb-4">
+                     <div>Correctas: <span id="correctas" class="font-bold text-green-400">0</span></div>
+                     <div>Falladas: <span id="falladas" class="font-bold text-red-400">0</span></div>
+                     <div>Puntuación: <span id="puntuacion" class="font-bold text-teal-400">0</span></div>
+                 </div>
 
                 <div id="barraProgreso" class="mb-4">
                     <div id="progreso"></div>
                 </div>
 
-                <div id="tema" class="text-2xl mb-4"></div>
-                <div id="pregunta" class="text-xl mb-4"></div>
-                 <!-- <div id="respuestas" class="grid grid-cols-2 gap-4"> -->
-                <div id="respuestas" class="grid gap-4">
-                    <button class="respuesta font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="0"></button>
-                    <button class="respuesta font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="1"></button>
-                    <button class="respuesta font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="2"></button>
-                    <!-- <button class="respuesta font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline text-left" data-index="3"></button> -->
+                <div id="tema" class="text-sm text-gray-400 mb-2 text-center italic"></div>
+                <div id="pregunta" class="text-lg md:text-xl mb-4 font-semibold text-center"></div>
+                <div id="respuestas" class="grid gap-3 md:gap-4 mt-4">
+                    <button class="respuesta font-bold py-3 px-4 rounded text-left" data-index="0"></button>
+                    <button class="respuesta font-bold py-3 px-4 rounded text-left" data-index="1"></button>
+                    <button class="respuesta font-bold py-3 px-4 rounded text-left" data-index="2"></button>
                 </div>
 
-                <div id="resultado" class="mt-6 p-4 rounded">
-                    <p id="mensajeResultado" class="font-bold text-lg"></p>
-                    <p id="explicacion" class="text-gray-300 italic"></p>
+                 <div id="resultado" class="mt-6 p-4 rounded" style="display: none;">
+                    <p id="mensajeResultado" class="font-bold text-lg text-center"></p>
+                    <p id="explicacion" class="text-gray-300 italic mt-2 text-sm"></p>
+                 </div>
+
+                <div class="flex justify-center mt-6">
+                     <button id="btnSiguiente" class="btn-primary font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" style="display: none;">Siguiente Pregunta</button>
+                     <button id="btnVerResultados" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" style="display: none;">Ver Resultados</button>
                 </div>
-                <button id="btnSiguiente" class="btn-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4">Siguiente Pregunta</button>
-                <button id="btnVerResultados" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4" style="display: none;">Ver Resultados</button>
             </div>
 
-            <!-- Contenedor del resultado final -->
-            <div id="resultadoFinal" class="p-4 text-center">
+            <!-- Contenedor del resultado final (sin cambios aquí) -->
+            <div id="resultadoFinal" class="p-4 text-center" style="display: none;">
                 <p id="mensajeFinal" class="text-xl mb-4"></p>
                 <button id="btnReiniciar" class="btn-primary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-4">Nuevo Test</button>
             </div>
