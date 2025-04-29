@@ -548,8 +548,8 @@
       "Desarrollo de intervenciones de carácter específico, incluidas en el Plan de Intervención proporcionando una adecuada cobertura de sus necesidades que faciliten su inclusión social y, consecuentemente, también laboral, de las personas en situación o riesgo de exclusión social, incluidas las mujeres víctimas de violencia machista, prioritariamente de los perceptores de la Renta Garantizada de Ciudadanía, dentro de un plan de caso que establezca un itinerario integral de inclusión.",
       "Todas las respuestas son correctas."
     ],
-    "correcta": 0,
-    "explicacion": "La valoración especializada para cubrir necesidades y promover la competencia personal y social es uno de los objetivos clave de este servicio de apoyo familiar según el Acuerdo Marco."
+    "correcta": 2,
+    "explicacion": "Tanto la valoración como la intervención son objetivos de este servicio de apoyo familiar según el Acuerdo Marco."
   },
   {
     "bloque": "BLOQUE II",
@@ -824,8 +824,8 @@
       "En ocasiones especiales, como cumpleaños o festividades.",
       "En ningún caso."
     ],
-    "correcta": 0,
-    "explicacion": "La norma general suele permitir el acceso de visitantes al comedor previa solicitud y, a menudo, abonando el coste, aunque pueda haber limitaciones de espacio o días."
+    "correcta": 2,
+    "explicacion": "La norma general no permite el acceso de visitantes o familiares al comedor."
   },
   {
     "bloque": "BLOQUE II",
@@ -1304,8 +1304,8 @@
       "HDME",
       "GENCAT"
     ],
-    "correcta": 1,
-    "explicacion": "La escala HDME (Home Observation for Measurement of the Environment) es una herramienta estandarizada utilizada internacionalmente y en España para evaluar la calidad del entorno familiar y su impacto en el desarrollo infantil."
+    "correcta": 0,
+    "explicacion": "Las Escalas de Bienestar Infantil es es la que se utiliza en estos casos."
   },
   {
     "bloque": "BLOQUE II",
